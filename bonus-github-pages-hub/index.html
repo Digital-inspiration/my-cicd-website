@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priya's Project Hub</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+    h1 { font-size: 32px; margin-bottom: 8px; }
+    p.sub { color: #94a3b8; margin-bottom: 32px; }
+    ul { list-style: none; padding: 0; }
+    li {
+      background: #1e293b;
+      border-radius: 12px;
+      margin-bottom: 14px;
+      transition: transform 0.1s ease;
+    }
+    li:hover { transform: translateX(4px); }
+    a {
+      display: block;
+      padding: 18px 22px;
+      color: #e2e8f0;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    a span { display: block; font-size: 14px; font-weight: 400; color: #94a3b8; margin-top: 4px; }
+    footer { margin-top: 40px; color: #64748b; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>👋 Hi, I'm Priya!</h1>
+  <p class="sub">These are the projects I've built. Click one to open it.</p>
+
+  <!--
+    HOW THIS WORKS:
+    Each link below points to a tiny .html file in THIS same repo.
+    That tiny file instantly bounces (redirects) the visitor to the real
+    project hosted on Vercel. Add a new <li> for every new project you make.
+  -->
+  <ul>
+    <li>
+      <a href="my-first-ci-cd.html">
+        🚀 My First CI/CD Website
+        <span>A website that deploys itself automatically.</span>
+      </a>
+    </li>
+    <li>
+      <a href="my-other-project.html">
+        🎮 My Other Project
+        <span>(Example — swap this for a real project later.)</span>
+      </a>
+    </li>
+  </ul>
+
+  <footer>Built with GitHub Pages. ✨</footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CI/CD Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- This colored bar tells you WHICH environment you are looking at. -->
+  <div id="env-banner" class="banner">Loading environment…</div>
+
+  <main class="card">
+    <h1>🚀 My First CI/CD Website</h1>
+    <p>
+      Every time I push my code to GitHub, a robot (called a "pipeline")
+      builds this page and puts it online automatically.
+    </p>
+    <p>
+      Change the text below, save, and push. Watch it appear on the website!
+    </p>
+
+    <div class="message">
+      <h2>Hello, world! 👋</h2>
+      <p>This is version 1 of my website.</p>
+    </div>
+
+    <footer>
+      <small>Made with ❤️ and a CI/CD pipeline.</small>
+    </footer>
+  </main>
+
+  <script src="env.js"></script>
+</body>
+</html>
